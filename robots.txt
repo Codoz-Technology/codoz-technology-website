@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# XML Sitemap
+Sitemap: https://codoztech.github.io/codoz-technology-website/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow certain files
+Disallow: /img-backup/
+Disallow: /*.ps1$
+Disallow: /*.bat$
+Disallow: /DEPLOYMENT-GUIDE.md
+Disallow: /QUICK-DEPLOY.md
+Disallow: /CREATE-REPO-FIRST.md
+Disallow: /MANUAL-UPLOAD.md
+Disallow: /NEXT-STEPS.md
+Disallow: /TROUBLESHOOT-404.md
+Disallow: /UPLOAD-TO-GITHUB.md
+
+# Allow important directories
+Allow: /css/
+Allow: /img/
+Allow: /index.html

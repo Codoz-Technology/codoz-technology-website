@@ -3,6 +3,44 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Primary SEO Meta Tags -->
+	<title>Codoz Technology - Digital Solutions | Web Development, AI, Digital Marketing</title>
+	<meta name="title" content="Codoz Technology - Digital Solutions | Web Development, AI, Digital Marketing">
+	<meta name="description" content="Codoz Technology offers comprehensive digital solutions including AI model building, web & mobile development, digital marketing, and graphic design. Transform your business with our expert team in Sivakasi, Tamil Nadu.">
+	<meta name="keywords" content="web development, mobile app development, digital marketing, AI solutions, graphic design, Sivakasi, Tamil Nadu, React development, Flutter apps, SEO services, UI UX design, e-commerce development">
+	<meta name="author" content="Codoz Technology">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://codoztech.github.io/codoz-technology-website/">
+	<meta property="og:title" content="Codoz Technology - Premier Digital Solutions Provider">
+	<meta property="og:description" content="Transform your business with our AI solutions, web development, mobile apps, and digital marketing services. Expert team serving clients across India.">
+	<meta property="og:image" content="https://codoztech.github.io/codoz-technology-website/img/logo.png">
+	<meta property="og:site_name" content="Codoz Technology">
+	<meta property="og:locale" content="en_US">
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://codoztech.github.io/codoz-technology-website/">
+	<meta property="twitter:title" content="Codoz Technology - Digital Solutions Expert">
+	<meta property="twitter:description" content="Leading digital agency specializing in AI, web development, mobile apps, and digital marketing. Based in Sivakasi, serving clients globally.">
+	<meta property="twitter:image" content="https://codoztech.github.io/codoz-technology-website/img/logo.png">
+	
+	<!-- Additional SEO Meta Tags -->
+	<meta name="geo.region" content="IN-TN">
+	<meta name="geo.placename" content="Sivakasi">
+	<meta name="geo.position" content="9.4569;77.8016">
+	<meta name="ICBM" content="9.4569, 77.8016">
+	<meta name="distribution" content="global">
+	<meta name="rating" content="general">
+	<meta name="copyright" content="Codoz Technology">
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://codoztech.github.io/codoz-technology-website/">
 	<title>Codoztech</title>
 	<!-- Favicon - Using compressed logo -->
 	<link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
@@ -10,6 +48,90 @@
 	<link rel="apple-touch-icon" href="img/logo.png">
 	<link rel="shortcut icon" href="img/logo.png">
 	<meta name="theme-color" content="#26c758">
+	
+	<!-- JSON-LD Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Codoz Technology",
+		"alternateName": "Codoz Tech",
+		"url": "https://codoztech.github.io/codoz-technology-website/",
+		"logo": "https://codoztech.github.io/codoz-technology-website/img/logo.png",
+		"description": "Leading digital solutions provider specializing in AI model building, web development, mobile app development, digital marketing, and graphic design.",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "1/931, Murugaiya Puram, Viswanatham",
+			"addressLocality": "Sivakasi",
+			"addressRegion": "Tamil Nadu",
+			"postalCode": "626123",
+			"addressCountry": "IN"
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+91-9042160283",
+			"contactType": "customer service",
+			"email": "codoztech@gmail.com",
+			"availableLanguage": ["English", "Tamil"]
+		},
+		"sameAs": [
+			"https://github.com/codoztech"
+		],
+		"foundingDate": "2024",
+		"areaServed": {
+			"@type": "Country",
+			"name": "India"
+		},
+		"serviceType": [
+			"Web Development",
+			"Mobile App Development",
+			"AI Solutions",
+			"Digital Marketing",
+			"Graphic Design",
+			"UI/UX Design"
+		]
+		}
+	</script>
+	
+	<!-- Local Business Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Codoz Technology",
+		"image": "https://codoztech.github.io/codoz-technology-website/img/logo.png",
+		"telephone": "+91-9042160283",
+		"email": "codoztech@gmail.com",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "1/931, Murugaiya Puram, Viswanatham",
+			"addressLocality": "Sivakasi",
+			"addressRegion": "Tamil Nadu",
+			"postalCode": "626123",
+			"addressCountry": "IN"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 9.4569,
+			"longitude": 77.8016
+		},
+		"url": "https://codoztech.github.io/codoz-technology-website/",
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday",
+				"Saturday"
+			],
+			"opens": "09:00",
+			"closes": "18:00"
+		},
+		"priceRange": "$$"
+		}
+	</script>
 	<!-- Tailwind -->
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<!-- Alpine -->
@@ -31,8 +153,8 @@
 
 </head>
 <body class="antialiased">
-	<!-- navbar -->
-	<div id="home"></div>
+	<!-- Navigation -->
+	<nav id="home" aria-label="Main navigation">
 	<div x-data="{ open: false }" class="w-full text-gray-700 bg-cream mt-0 pt-0">
         <div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
             <div class="flex flex-row items-center justify-between py-8">
@@ -60,8 +182,11 @@
 
             </nav>
         </div>
-    </div>
-	<div class="bg-cream">
+    </nav>
+	
+	<!-- Hero Section -->
+	<main>
+	<section class="bg-cream" aria-label="Hero section">
 		<div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
 			<!--Left Col-->
 			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
@@ -87,7 +212,7 @@
 			<div class="w-full lg:w-6/12 lg:-mt-10 relative" id="girl">
 				<img class="w-9/9 mx-auto 2xl:-mb-20" src="img/men.png" alt="Digital Solutions Professional" loading="eager" />
 				<!-- calendar -->
-				<div class="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
+				<div class="absolute top-36 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
 					<img class="bg-white bg-opacity-80 rounded-lg h-12 sm:h-16" src="img/calender.png" alt="Calendar" loading="lazy">
 				</div>
 				<!-- red -->
@@ -110,10 +235,10 @@
 			</svg>
 			<div class="bg-white w-full h-20 -mt-px"></div>
 		</div>
-	</div>
+	</section>
 
-	<!-- container -->
-	<div class="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden">
+	<!-- Services Section -->
+	<section class="container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden" aria-label="Our services">
 
 		<!-- Our Services -->
 		<div id="services"></div>
@@ -256,7 +381,10 @@
 
 		<!-- About Us -->
 		<div id="aboutus"></div>
-		<div class="mt-22">
+	</section>
+	
+	<!-- About Section -->
+	<section class="mt-22" aria-label="About Codoz Technology">
 			<div class="text-center max-w-screen-md mx-auto">
 				<h1 class="text-3xl font-bold mb-4">What is<span class="text-green-500"> Codoz Technology?</span></h1>
 				<p class="text-gray-500">Codoz Technology is a full-service digital agency that helps businesses transform their digital presence through innovative web development, mobile app creation, strategic digital marketing, and compelling graphic design solutions.</p>
@@ -384,11 +512,12 @@
 		</div>
 
 		<button class="px-5 py-3 border border-green-500 text-green-500 font-medium my-14 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full mx-auto block">View All Services</button>
+	</section>
+	</main>
 
 
 <!-- Projects Section -->
-<div id="projects"></div>
-<section id="projects" class="bg-gray-50 py-20">
+<section id="projects" class="bg-gray-50 py-20" aria-label="Our projects">
   <div class="max-w-7xl mx-auto px-6 lg:px-8">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-bold text-gray-900">Our Projects</h2>
@@ -489,7 +618,7 @@
 
 	<!-- Contact Section -->
 	<div id="contact"></div>
-	<section id="contact" class="bg-gray-50 py-18">
+	<section id="contact" class="bg-gray-50 py-18" aria-label="Contact information">
   	<div class="max-w-6xl mx-auto px-6 lg:px-8 text-center">
     
     <!-- Heading -->
@@ -534,7 +663,7 @@
 
 		<!-- TESTIMONIALS -->
 		<div id="testimonial"></div>
-		<div class="mt-24 py-18">
+		<section class="mt-24 py-18" aria-label="Client testimonials">
 			<div class="max-w-7xl mx-auto px-8">
 				<div class="text-center mb-16">
 					<h1 class="text-4xl font-bold text-darken mb-4">What Our Clients Say</h1>
@@ -651,7 +780,7 @@
 	</div>
 
     <!--footer-->
-	<footer class="footer-bg text-gray-300 mt-12">
+	<footer class="footer-bg text-gray-300 mt-12" role="contentinfo" aria-label="Footer">
     <div class="max-w-7xl mx-auto px-8 py-16">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       
