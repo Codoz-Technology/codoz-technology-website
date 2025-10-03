@@ -1,0 +1,199 @@
+/*primary color*/
+.bg-cream {
+    background-color: #FFF2E1;
+}
+
+/*font*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for all elements */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Alternative method for all browsers */
+html {
+    overflow-x: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.bg-yellow-500 {
+    background-color: #26c758;
+}
+.text-yellow-500 {
+    color: #26c758;
+}
+.bg-green-500 {
+    background-color: #26c758;
+}
+.text-green-500 {
+    color: #26c758;
+}
+.floating { 
+    /* animation disabled */
+} 
+@keyframes floating { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+} 
+.floating-4 { 
+    /* animation disabled */
+} 
+@keyframes floating-4 { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+}
+.text-darken {
+    color: #1B2537;
+}
+
+/* Footer Styles */
+.footer-bg {
+  background-color: #1a1f36;
+  color: #d1d5db;
+}
+
+
+.footer-bg h3 {
+  color: #ffffff; /* Bright headings */
+  font-weight: 600;
+}
+
+.footer-bg p,
+.footer-bg li,
+.footer-bg span {
+  color: #d1d5db; /* Softer gray for body text */
+  font-size: 0.875rem; /* Small text */
+}
+
+.footer-bg a {
+  color: #d1d5db;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-bg a:hover {
+  color: #22c55e; /* Tailwind green-500 */
+}
+
+.footer-bg .footer-bottom {
+  border-top: 1px solid #374151; /* Tailwind gray-700 */
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.875rem;
+  color: #9ca3af; /* Tailwind gray-400 */
+  text-align: center;
+}
+
+.footer-bg .footer-bottom a {
+  margin: 0 0.5rem;
+  color: #9ca3af;
+  font-size: 1.2rem;
+}
+
+.footer-bg .footer-bottom a:hover {
+  color: #22c55e;
+}
+
+.footer-bg .btn-whatsapp {
+  display: inline-block;
+  background-color: #22c55e;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.footer-bg .btn-whatsapp:hover {
+  background-color: #16a34a; /* Darker green */
+}
+
+/* Site Protection Styles */
+/* Disable text selection */
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Allow text selection for input fields and textareas */
+input, textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+/* Disable image dragging */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+}
+
+/* Make images unselectable */
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Disable highlighting */
+::selection {
+    background: transparent;
+}
+
+::-moz-selection {
+    background: transparent;
+}
+
+/* Hide content when dev tools are open (backup method) */
+@media screen and (max-height: 500px) and (min-width: 800px) {
+    body {
+        display: none;
+    }
+    body:before {
+        content: "Please view this site in normal browser mode.";
+        display: block;
+        text-align: center;
+        padding: 50px;
+        font-size: 18px;
+        color: #333;
+    }
+}
+
+/* Disable print styles */
+@media print {
+    body {
+        display: none;
+    }
+}
